@@ -24,3 +24,36 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bg_btn_red_custom {
+    background-color: var(--btn_red_custom);
+}
+.bg_btn_light_custom {
+    background-color: var(--btn_light_custom);
+}
+.bg_btn_light_2_custom {
+    background-color: var(--btn_light_2_custom);
+}
+
+.btn_wrapper {
+    display: inline-block;
+    padding: 3px;
+    border: 3px solid transparent;
+    border-radius: 50px;
+}
+
+.hover_btn_red:hover {
+    border-color: var(--btn_red_custom);
+}
+.hover_btn_light:hover {
+    border-color: var(--btn_light_custom);
+}
+.hover_btn_light_2:hover {
+    border-color: var(--btn_light_2_custom);
+}
+
+
+.img_wrapper {
+    border-radius: 25px;
+    overflow: hidden;
+}
