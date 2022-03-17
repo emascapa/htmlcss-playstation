@@ -18,14 +18,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero_section {
-    height: 700px;
-    background-image: url(./img/jumbo-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+/* UTILITIE BUTTONS */
 .bg_btn_red_custom {
     background-color: var(--btn_red_custom);
 }
@@ -38,17 +31,6 @@
 .bg_btn_light_2_custom {
     background-color: var(--btn_light_2_custom);
 }
-
-.color_primary_custom {
-    color: var(--primary_custom);
-}
-.color_dark_custom {
-    color: var(--color_font_custom_dark);
-}
-.color_lighter_custom {
-    color: var(--color_font_lighter);
-}
-
 .btn_wrapper {
     display: inline-block;
     padding: 3px;
@@ -69,6 +51,35 @@
     border-color: var(--btn_light_2_custom);
 }
 
+/* UTILITIES FONT COLORS */
+
+.color_primary_custom {
+    color: var(--primary_custom);
+}
+.color_dark_custom {
+    color: var(--color_font_custom_dark);
+}
+.color_lighter_custom {
+    color: var(--color_font_lighter);
+}
+
+
+
+/* HERO SECTION */
+.hero_section {
+    height: 700px;
+    background-image: url(./img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_section h2,
+.hero_section p {
+    text-shadow: 2px 2px 8px #555555;
+}
+
+
+/* CAROUSEL SECTION */
 
 .img_wrapper {
     /* border-radius: 25px; */
@@ -89,6 +100,9 @@
     transition: transform 0.4s;
 }
 
+
+/* PS5 SECTION */
+
 .ps5_item {
     border-bottom: 3px solid white;
     opacity: 0.5;
@@ -99,6 +113,9 @@
     opacity: 1;
     transition: opacity 0.2s;
 }
+
+
+/* IT TAKES TWO SECTION */
 
 .hero2_section {
     height: 700px;
@@ -112,3 +129,4 @@
 .hero2_section p {
     text-shadow: 2px 2px 8px #555555;
 }
+
