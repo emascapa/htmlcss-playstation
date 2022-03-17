@@ -19,20 +19,34 @@
 }
 
 .hero_section {
-    height: 680px;
+    height: 700px;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg_btn_red_custom {
     background-color: var(--btn_red_custom);
+}
+.bg_btn_primary_custom {
+    background-color: var(--primary_custom);
 }
 .bg_btn_light_custom {
     background-color: var(--btn_light_custom);
 }
 .bg_btn_light_2_custom {
     background-color: var(--btn_light_2_custom);
+}
+
+.color_primary_custom {
+    color: var(--primary_custom);
+}
+.color_dark_custom {
+    color: var(--color_font_custom_dark);
+}
+.color_lighter_custom {
+    color: var(--color_font_lighter);
 }
 
 .btn_wrapper {
@@ -44,6 +58,9 @@
 
 .hover_btn_red:hover {
     border-color: var(--btn_red_custom);
+}
+.hover_btn_primary:hover {
+    border-color: var(--primary_custom);
 }
 .hover_btn_light:hover {
     border-color: var(--btn_light_custom);
@@ -70,4 +87,28 @@
     outline-color: var(--primary_custom);
     transform: translate(0 , -10px);
     transition: transform 0.4s;
+}
+
+.ps5_item {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+}
+
+.ps5_item:hover {
+    border-color: var(--primary_custom);
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.hero2_section {
+    height: 700px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero2_section h2,
+.hero2_section p {
+    text-shadow: 2px 2px 8px #555555;
 }
