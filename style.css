@@ -1,0 +1,26 @@
+:root {
+    --dark_custom: #000000;
+    --footer_custom: #00439C;
+    --bg_play_now: #161C3B;
+    --color_font_custom_dark: #1F1F1F;
+    --primary_custom: #2D64E6;
+    --btn_dark_custom: #363636;
+    --color_font_lighter: #828282;
+    --bg_play_plus: #BEBCBB;
+    --btn_red_custom: #CD3D0F;
+    --btn_light_custom: #D9DADC;
+    --btn_light_2_custom: #F5F5F5;
+    --light_custom: #FFFFFF;
+
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero_section {
+    height: 680px;
+    background-image: url(./img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
