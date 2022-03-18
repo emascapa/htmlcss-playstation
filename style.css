@@ -44,6 +44,9 @@
 .bg_play_plus_custom {
     background-color: var(--bg_play_plus);
 }
+.bg_play_now_custom {
+    background-color: var(--bg_play_now);
+}
 .btn_wrapper {
     display: inline-block;
     padding: 3px;
@@ -70,7 +73,7 @@
     color: var(--primary_custom)!important;
 }
 .color_dark_custom {
-    color: var(--color_font_custom_dark);
+    color: var(--color_font_custom_dark)!important;
 }
 .color_lighter_custom {
     color: var(--color_font_lighter);
