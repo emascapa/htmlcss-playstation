@@ -18,6 +18,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ul.dropdown-menu {
+    position: fixed;
+    left: calc(0vw);
+    width: 100vw;
+    height: 300px;
+} */
+
 /* UTILITIE BUTTONS */
 .bg_btn_red_custom {
     background-color: var(--btn_red_custom);
@@ -30,6 +37,9 @@
 }
 .bg_btn_light_2_custom {
     background-color: var(--btn_light_2_custom);
+}
+.bg_new_games_custom {
+    background-color: var(--color_font_custom_dark);
 }
 .btn_wrapper {
     display: inline-block;
@@ -130,3 +140,8 @@
     text-shadow: 2px 2px 8px #555555;
 }
 
+/* NEW GAMES SECTION */
+
+.new_games_section img {
+    border-radius: 20px;
+}
