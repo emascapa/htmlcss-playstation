@@ -47,6 +47,9 @@
 .bg_play_now_custom {
     background-color: var(--bg_play_now);
 }
+.bg_footer_custom {
+    background-color: var(--footer_custom);
+}
 .btn_wrapper {
     display: inline-block;
     padding: 3px;
