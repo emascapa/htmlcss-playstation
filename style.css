@@ -41,6 +41,9 @@
 .bg_new_games_custom {
     background-color: var(--color_font_custom_dark);
 }
+.bg_play_plus_custom {
+    background-color: var(--bg_play_plus);
+}
 .btn_wrapper {
     display: inline-block;
     padding: 3px;
@@ -64,7 +67,7 @@
 /* UTILITIES FONT COLORS */
 
 .color_primary_custom {
-    color: var(--primary_custom);
+    color: var(--primary_custom)!important;
 }
 .color_dark_custom {
     color: var(--color_font_custom_dark);
@@ -142,6 +145,22 @@
 
 /* NEW GAMES SECTION */
 
-.new_games_section img {
+.ps4_item {
+    cursor: pointer;
+}
+
+.ps4_item>img {
     border-radius: 20px;
+}
+
+.ps4_item:hover img {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+
+/* PS PLUS SECTION */
+
+.ps_plus_section {
+    min-height: 240px;
 }
