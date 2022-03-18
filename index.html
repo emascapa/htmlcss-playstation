@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header id="site_header">
+    <header id="site_header" class="sticky-top">
         <!-- top header -->
         <section class="top_header bg-black d-flex justify-content-end align-items-center">
             <div class="p-3">
@@ -24,8 +24,9 @@
             </div>
         </section>
         <!--  bottom header / navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
+                <!-- LEFT NAVBAR -->
                 <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="" class="d-block">
                 </a>
@@ -36,116 +37,393 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                <span>Giochi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
 
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Giochi</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Giochi</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Giochi</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Hardware</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
+                            </a>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Hardware</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Hardware</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Hardware</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Servizi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
+                            </a>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Servizi</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Servizi</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Servizi</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Novità</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
+                            </a>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Novità</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Novità</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Novità</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Fai Acquisti</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
+                            </a>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Acquisti</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Acquisti</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Acquisti</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Supporto</span>
+                                <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
+                            </a>
+                            <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 5</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 4</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                <span>PlayStation 3</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Supporto</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Supporto</a>
+                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span>
+                                                <span class="color_primary_custom">&#8226; &#160;</span>
+                                                <a href="" class="text-decoration-none color_dark_custom hover_header_link_custom">Link Supporto</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- RIGHT NAVBAR -->
                     <div class="ms-auto mb-2 mb-lg-0">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    <span>My PlayStation</span>
+                                    <img src="./img/chevron-down-solid.svg" alt="" style="height: 13px;" class="ms-2">
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
+                                <ul class="dropdown-menu dropdown_custom" aria-labelledby="navbarDropdown">
+                                    <li class="d-flex justify-content-center">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                    <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                    <span>PlayStation 5</span>
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                    <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                    <span>PlayStation 4</span>
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <div class="navbar_item_hover_custom d-flex flex-column align-items-center  p-2 m-1">
+                                                    <img src="./img/play-menu-ico.png" alt=""  style="height: 80px;">
+                                                    <span>PlayStation 3</span>
+                                                </div>
+                                            </li>
+    
+                                        </ul>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <div class="btn btn-primary rounded">
+                            <li class="my-2 my-lg-0 mx-lg-2">
+                                <div class="btn bg_btn_dark_custom rounded-pill text-white">
                                     Accedi
                                 </div>
                             </li>
                             <li>
                                 <a class="nav-link" href="#">
-                                    <img src="./img/lens.svg" alt="" style="height: 20px;">
+                                    <img src="./img/lens.svg" alt="" style="height: 25px;">
                                 </a>
                             </li>
                         </ul>
@@ -627,6 +905,7 @@
     </main>
     <!-- /#site_main -->
 
+    <!-- SITE FOOTER -->
     <footer id="site_footer" class="bg_footer_custom text-white">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-2 gy-4">

@@ -26,6 +26,9 @@
 } */
 
 /* UTILITIE BUTTONS */
+.bg_btn_dark_custom {
+    background-color: var(--btn_dark_custom);
+}
 .bg_btn_red_custom {
     background-color: var(--btn_red_custom);
 }
@@ -76,12 +79,43 @@
     color: var(--primary_custom)!important;
 }
 .color_dark_custom {
-    color: var(--color_font_custom_dark)!important;
+    color: var(--color_font_custom_dark);
 }
 .color_lighter_custom {
     color: var(--color_font_lighter);
 }
 
+
+/* HEADER - DROPDOWN MENU */
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown_custom {
+    width: 100%;
+    background-color: var(--light_custom);
+    border: none;
+    border-radius: 0;
+}
+
+.navbar_item_hover_custom:hover {
+    box-shadow: 0 0 5px #333333;
+}
+
+.hover_header_link_custom:hover {
+    color: var(--primary_custom);
+}
+
+/* #btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    
+} */
 
 
 /* HERO SECTION */
