@@ -126,6 +126,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.returnal_logo {
+    height: 60px;
+}
+
+@media screen and (max-width: 576px) {
+    .returnal_logo {
+        width: 80%;
+        height: auto;
+    }
+    
+}
+
 .hero_section h2,
 .hero_section p {
     text-shadow: 2px 2px 8px #555555;
@@ -209,3 +222,5 @@
     transform: scale(1.05);
     
 }
+
+
